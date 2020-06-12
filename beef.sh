@@ -8,6 +8,7 @@ apt install nano -y
 apt install git -y
 apt install perl -y
 apt install ruby -y
+apt install pkg-config
 apt install nodejs -y 
 git clone https://github.com/beefproject/beef
 cd beef
@@ -29,7 +30,7 @@ gem install --no-document --verbose bundler:1.17.3
 bundle config build.nokogiri --use-system-libraries
 bundle install -j3
 echo "Gems installed"
-
+cd 
 echo " "
 echo "###### Now use the tool type ./beef ######" | lolcat
 
