@@ -3,6 +3,7 @@
 echo "\..By {AbhishekChauhan}.../"| lolcat
 apt-get update -y
 apt-get upgrade -y
+pkg install pkg-config
 pkg install nano -y
 pkg install git -y
 pkg install perl -y
